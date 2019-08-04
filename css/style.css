@@ -22,7 +22,7 @@ body,
 .headline-subtext {
   color: #5d5d5d;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.7rem;
 }
 
 .icons {
@@ -45,7 +45,7 @@ ul {
 }
 
 li {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   float: left;
   margin: 0 10px;
@@ -70,14 +70,14 @@ li a:hover {
   box-sizing: border-box;
   color: #ffc063;
   display: block;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 500;
-  padding: 3px;
+  padding: 3.5px;
   margin: 40px auto;
   width: 235px;
   position: relative;
   text-decoration: none;
-  height: 65px;
+  height: 55px;
   align-content: center;
 }
 
