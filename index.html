@@ -36,12 +36,12 @@
     <div class="container">
       <div class="rectangle time-series">
         <div class="title">
-          Visual Exploration of Self-Tracked Time Series
+          Visual Exploration of Self-Tracking Data
         </div>
         <div class="description">
-          A web application that generates interactive temporal visualizations based on quantified-self data provided as input
+          Research project exploring the visualization of time-oriented data
         </div>
-        <div class="button">See more <i class="fas fa-arrow-right"></i></div>
+        <div class="button" onclick="redirect('timeSeries')">See more <i class="fas fa-arrow-right"></i></div>
         <img src="img/img.png" alt="time series" />
       </div>
       <div class="rectangle parallel-coordinates">
@@ -76,7 +76,11 @@
       </div>
     </div>
 </div>
-
+<script>
+    function redirect(file) {
+        location.href = `${file}.html`;
+    }
+</script>
 </body>
 
 </html>
